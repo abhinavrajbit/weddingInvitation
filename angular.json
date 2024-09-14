@@ -13,7 +13,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "docs",
+            "outputPath": "dist/wedding-invitation",
+            "baseHref": "/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -26,8 +27,7 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": [],
-            "baseHref": "/wedding-invitation/"
+            "scripts": []
           },
           "configurations": {
             "production": {

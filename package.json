@@ -2,12 +2,13 @@
   "name": "wedding-invitation",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
+    "build": "ng build",
+    "build:prod": "ng build --configuration=production --base-href=/",
     "start": "ng serve",
-    "build": "ng build --output-path docs --base-href /wedding-invitation/",
-    "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --output-path docs --base-href /wedding-invitation/ && npx angular-cli-ghpages --dir=docs"
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "deploy": "ng build --prod --base-href /wedding-invitation/ && npx angular-cli-ghpages --dir=dist/wedding-invitation"
   },
   "private": true,
   "dependencies": {
