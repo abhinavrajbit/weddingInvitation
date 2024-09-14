@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';  // Import CommonModule here
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss'],
+  styleUrls: ['./home.component.css'],
   standalone: true,
   imports: [CommonModule, ReactiveFormsModule]  // Add CommonModule here
 })
