@@ -4,11 +4,11 @@
   "scripts": {
   "ng": "ng",
   "start": "ng serve",
-  "build": "ng build --output-path docs --base-href https://abhinavrajbit.github.io/wedding-invitation/",
+  "build": "ng build --output-path docs --base-href /wedding-invitation/",
   "watch": "ng build --watch --configuration development",
   "test": "ng test",
   "serve:ssr:wedding-invitation": "node dist/wedding-invitation/server/server.mjs",
-  "deploy": "ng build --output-path docs --base-href https://abhinavrajbit.github.io/wedding-invitation/ && npx angular-cli-ghpages --dir=docs"
+  "deploy": "ng build --output-path docs --base-href /wedding-invitation/ && npx angular-cli-ghpages --dir=docs"
 },
   "private": true,
   "dependencies": {
